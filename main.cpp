@@ -7,7 +7,7 @@
 //============================================================================
 
 #include <iostream>
-#include "PTProxy.h"
+#include "ptproxy/PTProxy.h"
 using namespace std;
 
 int main() {
