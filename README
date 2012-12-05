@@ -1,0 +1,6 @@
+PTServo
+=======
+
+Sample applications using PTProxy library.
+* kbdspeed - setting move speed from keyboard
+* tracker - tracking PS Move using PS Eye mounted on head. OpenCV and PSMoveApi required.
