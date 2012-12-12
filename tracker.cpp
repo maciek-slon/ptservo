@@ -157,14 +157,14 @@ int main(int arg, char** args) {
             yy = inrange(yy, -limit, limit);
 
             printf("x: %10.2f, y: %10.2f, r: %10.2f\n", xx, yy, r);
-            ptp->feedError(xx, yy);
+            ptp->setMotorSpeed(xx, yy);
         }
 
 
 		ptp->nextStep();
     }
 
-    ptp->feedError(0, 0);
+    ptp->setMotorSpeed(0, 0);
     ptp->nextStep();
 
     for (i=0; i<count; i++) {
